@@ -1,0 +1,44 @@
+/*Creamos el código CSS de nuestro archivo HTML */
+#encabezado {
+    height: 35px;
+/*    width: 800px;*/
+    width: 70%;
+/*    background-color: #005c99;*/
+/*    color: black;*/
+/*    display: inline-block;*/
+    margin-left: 15%;
+    border-radius: 4px;
+    font-family: Verdana;
+    position: fixed;
+    font-size: 18px;
+    text-align: center;
+    }
+
+#Yo {
+    font-family: Copperplate;
+    font-size: 60px;
+    /*    Border: red solid 3px;*/
+    color: black;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;    
+}
+
+#encabezado .headerelement {
+    margin: 8px 5px 8px 5px;
+    padding: 4px; 
+    text-decoration: none;
+    color: black;   
+}
+
+.exp {
+    width: 100px;
+    height: 400px;
+    float: left;
+    margin-top: 5%;
+    border-radius: 10px;
+    position: fixed;
+    background-color: whitesmoke;
+    border: solid 1px #003d66;
+}
