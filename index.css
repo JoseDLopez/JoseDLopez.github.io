@@ -1,19 +1,26 @@
 /*Creamos el código CSS de nuestro archivo HTML */
+
+/* Corresponde al encabezado de la pagina */
 #encabezado {
     height: 35px;
-/*    width: 800px;*/
-    width: 70%;
-/*    background-color: #005c99;*/
-/*    color: black;*/
-/*    display: inline-block;*/
-    margin-left: 15%;
-    border-radius: 4px;
+    width: 100%;
+    display: inline-block;
     font-family: Verdana;
-    position: fixed;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     }
 
+#encabezado p {
+    margin: 4px 5px 8px 5px;
+    color: black;   
+}
+
+/*Corresponde a donde esta mi nombre*/
+#titulo{
+    margin-bottom: 6px;    
+}
+
+/*Detalles de mi nombre*/
 #Yo {
     font-family: Copperplate;
     font-size: 60px;
@@ -25,20 +32,71 @@
     text-decoration: none;    
 }
 
-#encabezado .headerelement {
+/*Corresponde a la tabla de imagenes */
+#grid {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    bottom: 25%;
+    top: 25%;
+    left: 10%;
+}
+
+#grid table {
+/*    border-collapse: collapse;  */
+    width: 100%;
+}
+
+
+/*Agregamos un hover de opacidad para cuando el cursor pase por las imagenes */
+#grid table .imghover:hover{
+    opacity: 1;
+}
+
+#grid table .imghover{
+    opacity: 0.9;
+
+}
+
+#grid tr td {
+/*    border: red 1px solid;*/
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+/* Creamos el pie de la pagina donde van las redes sociales */
+#pie {
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    left: 40%;
+    text-align: center;
+    padding: 4px;
+    border-bottom: 2px solid black;
+    margin-bottom: 4px;
+}
+
+#pie .footelement {
     margin: 8px 5px 8px 5px;
     padding: 4px; 
     text-decoration: none;
-    color: black;   
+    color: black;
 }
 
-.exp {
-    width: 100px;
-    height: 400px;
-    float: left;
-    margin-top: 5%;
-    border-radius: 10px;
-    position: fixed;
-    background-color: whitesmoke;
-    border: solid 1px #003d66;
+#pie .footelement img {
+    width: 40px;
+    height: 40px;
 }
+
+/*Con las siguientes lineas, agregmos un hover para cuando el cursor pase por las redes */
+#pie .footelement img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
