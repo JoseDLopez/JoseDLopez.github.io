@@ -1,6 +1,8 @@
 /*Creamos el código CSS de nuestro archivo HTML */
 
-/* Corresponde al encabezado de la pagina */
+/**************************************** 
+Corresponde al encabezado de la pagina 
+*****************************************/
 #encabezado {
     height: 35px;
     width: 100%;
@@ -15,7 +17,11 @@
     color: black;   
 }
 
-/*Corresponde a donde esta mi nombre*/
+
+/***********************************
+Corresponde a donde esta mi nombre
+************************************/
+
 #titulo{
     margin-bottom: 6px;    
 }
@@ -32,7 +38,10 @@
     text-decoration: none;    
 }
 
-/*Corresponde a la tabla de imagenes */
+
+/***********************************
+Corresponde a la tabla de imagenes 
+************************************/
 #grid {
     position: absolute;
     width: 80%;
@@ -48,16 +57,6 @@
 }
 
 
-/*Agregamos un hover de opacidad para cuando el cursor pase por las imagenes */
-#grid table .imghover:hover{
-    opacity: 0.5;
-}
-
-#grid table .imghover{
-    opacity: 1;
-
-}
-
 #grid tr td {
 /*    border: red 1px solid;*/
     vertical-align: middle;
@@ -68,7 +67,22 @@
     padding: 15px;
 }
 
-/* Creamos el pie de la pagina donde van las redes sociales */
+
+/**************************************************************************
+Agregamos un hover de opacidad para cuando el cursor pase por las imagenes 
+**************************************************************************/
+#grid table .imghover:hover{
+    opacity: 0.5;
+}
+
+#grid table .imghover{
+    opacity: 1;
+
+}
+
+/*********************************************************
+Creamos el pie de la pagina donde van las redes sociales
+*********************************************************/
 #pie {
     bottom: 0;
     position: absolute;
@@ -92,7 +106,9 @@
     height: 40px;
 }
 
-/*Con las siguientes lineas, agregmos un hover para cuando el cursor pase por las redes */
+/***********************************************************
+Agregmos un hover para cuando el cursor pase por las redes
+***********************************************************/
 #pie .footelement img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
