@@ -2,23 +2,33 @@
 
 
 /***********************************
-Corresponde a donde esta mi nombre
+Corresponde al header
 ************************************/
 
-#titulo{
-    margin-bottom: 6px;    
+header {
+    text-align: center;
 }
 
-/*Detalles de mi nombre*/
-#Yo {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    font-family: Copperplate;
+header h1 {
+    font-family: 'Cinzel', serif;
     font-size: 60px;
-    color: black;
+    font-weight: lighter;
+    border: 2px solid blue;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    width: 100vw;
+}
 
-    text-decoration: none;    
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header p {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    border: 2px red solid;
+    margin-top: 0px;
 }
 
 
