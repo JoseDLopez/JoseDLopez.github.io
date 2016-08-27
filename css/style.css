@@ -4,6 +4,9 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Andada', serif;
 font-family: 'Quicksand', sans-serif;*/
 
+/*********************************
+******** Body Edition **********
+*********************************/
 body {    
     background-color: white;
     -webkit-animation-name: gradientbackground; /* Chrome, Safari, Opera */
@@ -16,10 +19,6 @@ body {
     from {background-color: #80aaff;}
     to {background-color: white;}
 }
-
-
-
-
 
 /*********************************
 ******** Header Edition **********
