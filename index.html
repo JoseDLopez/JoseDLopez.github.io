@@ -1,81 +1,131 @@
-<!-- Indicamos el tipo de archivo que estamos trabajando, en este caso HTML 5 -->
-<!Doctype html>
-
-<!-- Inicia nuestro código HTML -->
-<html>
-
-<!-- Creanmos el encabezado del codigo de HTML -->
-<head>
-    <!-- Configuracion para mostrar juego de caracteres -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
-    <!-- Hacemos el link con nuestro archivo CSS NORMALIZE -->
-    <link type="text/css" rel="stylesheet" href="normalize.css" />
-    
-    <!-- Hacemos el link con nuestro archivo CSS -->
-    <link type="text/css" rel="stylesheet" href="index.css" />
-    
-    <!-- Creamos el título de nuestra página web -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Home - José Daniel López</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="/css/style.css">
     
     <!-- Agregamos icono en nuestra pagina web -->
     <link rel="icon" 
       type="image/png" 
       href="http://lopezjosedaniel.com/images/favicon.png">
     
+    <!-- Font family added -->
+    <link href="https://fonts.googleapis.com/css?family=Andada|Josefin+Sans|Quicksand" rel="stylesheet">
+    
     <!-- OGP FACEBOOK SCRIPT -->
     <meta property="og:title" content="José Daniel López - Website"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://lopezjosedaniel.com"/>
     <meta property="og:image" content="http://lopezjosedaniel.com/images/bio_front_index.png"/>
-    
-    <!-- Agregamos fuentes -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Poiret+One" rel="stylesheet">
-</head>
-    
-    
-<!-- Creamos el cuerpo de nuestro código HTML -->    
-<body>
+  </head>
+  
+  <body>
+  <!----------------------------------------------->
+   <!------------ We create Header part ----------->
+   <!---------------------------------------------->
+   <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- NAME -->
+                <h1 class="headline text-uppercase text-center">José Daniel López</h1>
+
+                <!-- Place and birthday -->
+                <p class="headline-caption text-capitalize text-center">Venezuela, 1991.</p>
+            </div>
+        </div>
+    </div>       
+   </header>
    
-    <!-- Creamos la seccion de encabezado, a traves de la semantica HEADER -->
-    <header>
-        <h1><a href="http://lopezjosedaniel.com/">JOSÉ DANIEL LÓPEZ</a></h1>
-        <p>Venezuela, 1991.</p>
-    </header>
+   <!----------------------------------------------->
+   <!------------ We create Section part ----------->
+   <!----------------------------------------------->
+   <section>
+       <div class="container">
+           <div class="row">
+              
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
+               
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
+               
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
 
-    
-    <!-- Hacemos la galeria  de inicio -->
-    <div id="grid">
-     <!-- Esta tabla consta de 3 filas y 3 columas -->
-      <table>
-         <!-- Creamos las tres primeras filas con sus imagenes -->
-          <tr>
-              <td><a href="http://blog.lopezjosedaniel.com/"><img class="imghover" src="http://lopezjosedaniel.com/images/blog_front_index.png"/></a></td>
-              <td><a href=""><img class="imghover" src="http://lopezjosedaniel.com/images/project_front_index.png"/></a></td>
-              <td><a href=""><img class="imghover" src="http://lopezjosedaniel.com/images/cv_front_index.png"/></a></td>
-          </tr>
-          <!-- Creamos las siguientes 3 filas con sus imagenes --> 
-          <tr>
-              <td><a href=""><img class="imghover" src="http://lopezjosedaniel.com/images/gallery_front_index.png"/></a></td>
-              <td><a href=""><img class="imghover" src="http://lopezjosedaniel.com/images/bio_front_index.png"/></a></td>
-              <td><a href=""><img class="imghover" src="http://lopezjosedaniel.com/images/contact_front_index.png"/></a></td>
-          </tr>
-      </table>
-    </div>    
-    
-        <!-- DIV: Corresponde al pie de pagina donde van las redes sociales -->
-    <div id="pie">
-      <a class="footelement" href="https://github.com/JoseDLopez"><img src="http://lopezjosedaniel.com/images/logo_github_black.png"</a>
-      <a class="footelement" href="https://cl.linkedin.com/in/josé-daniel-lópez-ramírez-b5200790
-"><img id ="logo_linkedin" src="http://lopezjosedaniel.com/images/linkedin_logo_black.jpg"/></a>
-      <a class="footelement" href="https://www.facebook.com/LopezRamirezJoseDaniel"><img id ="logo_facebook" src="http://lopezjosedaniel.com/images/facebook_logo_black.png"/></a>
-      <a class="footelement" href="https://www.instagram.com/josedlopez/"><img src ="http://lopezjosedaniel.com/images/instagram_logo_black.png"/></a>
-      <a class="footelement" href="https://twitter.com/JoseDLopez"><img src ="http://lopezjosedaniel.com/images/twitter_logo_black.png"/></a>
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
+               
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
+               
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="imgbox">
+                    <a href=""><img src="http://lorempixel.com/400/200" alt="" class="img-responsive"></a>
+                </div>
+               </div>
+           </div>
+       </div>
+       
+   </section>
+   
+   <!----------------------------------------------->
+   <!------------ We create Footer part ------------>
+   <!----------------------------------------------->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-xs-12 footelement">
+                    <a href="https://github.com/JoseDLopez"><img src="http://lopezjosedaniel.com/images/logo_github_black.png"/></a>
+                    
+                    <a href="https://cl.linkedin.com/in/josé-daniel-lópez-ramírez-b5200790
+                    "><img id ="logo_linkedin" src="http://lopezjosedaniel.com/images/linkedin_logo_black.jpg"/></a>
+                    
+                    <a href="https://www.facebook.com/LopezRamirezJoseDaniel"><img id ="logo_facebook" src="http://lopezjosedaniel.com/images/facebook_logo_black.png"/></a>
+                    
+                    <a href="https://www.instagram.com/josedlopez/"><img src ="http://lopezjosedaniel.com/images/instagram_logo_black.png"/></a>
+                    
+                    <a href="https://twitter.com/JoseDLopez"><img src ="http://lopezjosedaniel.com/images/twitter_logo_black.png"/></a>
+               </div>
+           </div>
+       </div>
+   </footer>
 
-    </div>
+   
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     
-    
-    <!-- SCRIPT DE GOOGLE ANALYTICS -->
+       
+       
+       
+        <!-- SCRIPT DE GOOGLE ANALYTICS -->
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -85,9 +135,5 @@
         ga('create', 'UA-82884928-1', 'auto');
         ga('send', 'pageview');
     </script>
-    
-</body>
-
-    
-    
+  </body>
 </html>
