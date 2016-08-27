@@ -1,0 +1,78 @@
+/* Esta es la familia de fuentes */
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Andada', serif;
+font-family: 'Quicksand', sans-serif;*/
+
+body {    
+    background-color: white;
+    -webkit-animation-name: gradientbackground; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: gradientbackground;
+    animation-duration: 10s;
+}
+
+@keyframes gradientbackground {
+    from {background-color: #80aaff;}
+    to {background-color: white;}
+}
+
+
+
+
+
+/*********************************
+******** Header Edition **********
+*********************************/
+header .headline {
+    font-family: 'Andada', serif;
+    font-size: 50px;
+    color: black;
+}
+
+header .headline-caption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+
+
+/*********************************
+******** Section Edition *********
+*********************************/
+
+section {
+    margin-top: 20px;
+}
+
+section .container .imgbox {
+    margin-top: 20px;
+}
+
+section .imgbox img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*********************************
+********* Footer Edition *********
+*********************************/
+footer {
+    margin-top: 60px;
+}
+
+footer .footelement{
+text-align: center;
+}
+
+footer img {
+    width: 6vmin;
+    margin: 0px 10px 0px 10px;
+}
+
+footer img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
