@@ -50,10 +50,8 @@ section {
     margin-top: 5px;
 }
 
-section .container .imgbox img {
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding-bottom: 30px;
+section .imgbox {
+margin-bottom: 30px;
 }
 
 section .imgbox img{
@@ -70,21 +68,20 @@ section .imgbox a img:hover{
 }
 
 
-
-
 section .imgbox a:hover ~ .caption p{
-/*    font-size: 65px;*/
     font-weight: bold;
 }
 
 
 .imgbox .caption p{
     font-family: 'Quicksand', sans-serif;
-    font-size: 66px;
+    font-size: 8vmin;
     color: black;
 }
+
 .imgbox .caption{
-    margin-top: -190px;
+    margin-top: -10vmax;
+    margin-bottom: 8vmax;
 }
 
 
@@ -92,7 +89,7 @@ section .imgbox a:hover ~ .caption p{
 ********* Footer Edition *********
 *********************************/
 footer {
-    margin-top: 30px;
+/*    margin-top: 10px;*/
 }
 
 footer .footelement{
