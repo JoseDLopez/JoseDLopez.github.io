@@ -51,7 +51,7 @@ section {
 }
 
 section .imgbox {
-margin-bottom: 30px;
+margin-bottom: 90px;
 }
 
 section .imgbox img{
@@ -75,13 +75,14 @@ section .imgbox a:hover ~ .caption p{
 
 .imgbox .caption p{
     font-family: 'Quicksand', sans-serif;
-    font-size: 8vmin;
+    font-size: 30px;
     color: black;
 }
 
 .imgbox .caption{
-    margin-top: -10vmax;
-    margin-bottom: 8vmax;
+    position: relative;
+    margin-top: -100px;
+/*    margin-bottom: 8vmax;*/
 }
 
 
