@@ -2,6 +2,15 @@ header {
 /*    color:#2F4858;*/
 }
 
-.personal_info img{
-    border: 3px solid grey;
+header .name_contact {
+    margin-top: 11px;
+    border-top: solid 5px grey;
+    border-bottom: solid 5px grey;
+}
+
+header .image_personal img {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 5px grey;
 }
