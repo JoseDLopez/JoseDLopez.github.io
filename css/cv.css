@@ -15,7 +15,7 @@
 	/*font-size: 60px;*/
 }
 h1.titulo_principal {
-	font-size: 15px;
+	font-size: 25px;
 }
 
 .contenido_pagina {
@@ -37,6 +37,10 @@ h1.titulo_principal {
 
 .encabezado_principal {
 	border-bottom: 2px grey solid;
+}
+
+a {
+	display: block;
 }
 
 
