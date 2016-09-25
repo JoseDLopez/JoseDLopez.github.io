@@ -1,7 +1,48 @@
-header {
-/*    color:#2F4858;*/
+
+/*cada fuente en CSS
+
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Muli', sans-serif;
+
+*/
+
+.titulo_principal {
+	font-family: 'Muli', sans-serif;
+	/*font-size: 60px;*/
+}
+h1.titulo_principal {
+	font-size: 25px;
 }
 
-.personal_info img{
-    border: 3px solid grey;
+.contenido_pagina {
+	font-family: 'Playfair Display', serif;
+	color: #424b54;
 }
+
+.section_title {
+	font-weight: bolder;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-bottom: 1px dashed #69829b;
+}
+
+.section_subtitle, .cargo {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3e92cc;
+	font-weight: bold;
+}
+
+.encabezado_principal {
+	border-bottom: 2px grey solid;
+}
+
+a {
+	display: block;
+}
+
+
+
+
